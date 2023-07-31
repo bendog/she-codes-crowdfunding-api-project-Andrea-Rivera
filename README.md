@@ -9,7 +9,6 @@ Small businesses that need presence online and do not have time to create the la
 Launch Page is a business name that describes the purpose of the company, which is to help small businesses to launch their companies and products online successfully. The word "launch" means to start or set in motion, while "page" refers to a webpage or website. Therefore, Launch Page suggests a platform that helps people launch their website projects by building a landing page that can attract potential investors and supporters. 
 
 ## Features
-{{ The features your MVP will include. (Remebber this is a working document, you can change these as you go!) }}
 
 * [] A user can login and create projects
 * [] Users can see the projects of other users
@@ -25,11 +24,15 @@ Launch Page is a business name that describes the purpose of the company, which 
 
 ## API Specification
 
-| HTTP Method | Url | Purpose | Request Body | Successful Response Code | Authentication <br /> Authorization
+| HTTP Method | Url | Purpose | Request Body | Successful Response Code | Authentication 
+<br /> 
 
+Authorization
 | --- | ------- | ------ | ---- | -----| ----|
 | GET | projects/ | Return all projects | N/A | 200 | N/A |
+<br /> 
 | POST | projects/ | Create a new project | project object | 201 | User must be logged in. |
+<br /> 
 
 ## Database Schema
 {{ Insert your database schema }}
