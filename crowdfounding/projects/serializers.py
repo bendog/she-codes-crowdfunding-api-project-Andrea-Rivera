@@ -18,10 +18,11 @@ class ProjectSerializer(serializers.Serializer):
     owner = serializers.CharField(max_length=200)
 
 class ProjectSerializer(serializers.ModelSerializer):
-    pledges = PledgeSerializer(many=True, read_only=True)
+   
     class Meta:        
         model = apps.get_model('projects.Project')        
         fields ='__all__'
 
-
+class ProjectDetailSerializer(ProjectSerializer):
+    pledges = PledgeSerializer(many=True, read_only=True)
 
