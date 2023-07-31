@@ -12,9 +12,11 @@ class Project(models.Model):
 class Pledge(models.Model):
     dev_pledge = models.CharField(max_length=200)   
     comment = models.CharField(max_length=200)  
+   
     project = models.ForeignKey(
         'Project',
         on_delete=models.CASCADE,
         related_name='pledges'
         )
     supporter = models.CharField(max_length=200)
+  
