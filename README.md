@@ -24,11 +24,8 @@ Launch Page is a business name that describes the purpose of the company, which 
 
 ## API Specification
 
-| HTTP Method | Url | Purpose | Request Body | Successful Response Code | Authentication 
+| HTTP Method | Url | Purpose | Request Body | Successful Response Code | Authentication|Authorization
 <br /> 
-
-Authorization
-| --- | ------- | ------ | ---- | -----| ----|
 | GET | projects/ | Return all projects | N/A | 200 | N/A |
 <br /> 
 | POST | projects/ | Create a new project | project object | 201 | User must be logged in. |
