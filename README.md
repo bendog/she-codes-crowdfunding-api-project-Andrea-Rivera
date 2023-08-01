@@ -15,6 +15,7 @@ Launch Page is a business name that describes the purpose of the company, which 
 * [] Users can like other projects (display favourites)
 * [] Users can make comments to the projects to improve its functionality.
 * [] Developers can make a plegde to help in the design and functionality of the webpage
+* [] 
 
 
 ### Stretch Goals
@@ -46,6 +47,7 @@ Launch Page is a business name that describes the purpose of the company, which 
 
 ## Fonts
 {{ outline your heading & body font(s) }}
+
 
 ## Submission Documentation
 {{ Fill this section out for submission }}

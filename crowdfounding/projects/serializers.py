@@ -18,6 +18,7 @@ class ProjectSerializer(serializers.Serializer):
     owner = serializers.CharField(max_length=200)
 
 class ProjectSerializer(serializers.ModelSerializer):
+    owner = serializers.ReadOnlyField(source='owner.id')
    
     class Meta:        
         model = apps.get_model('projects.Project')        
