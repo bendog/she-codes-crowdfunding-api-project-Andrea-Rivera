@@ -36,10 +36,12 @@ of money can be donated to reach our goal as an incentive to keep helping small 
 
 ## Database Schema
 {{ Insert your database schema }}
-![image info goes here](./docs/image.png)
+![database schema](crowdfounding/crowdfounding/static/images/DRF.png)
 
 ## Wireframes
 {{ Insert your wireframes }}
+![login](crowdfounding/crowdfounding/static/images/login.png)
+![about](crowdfounding/crowdfounding/static/images/about.png)
 ![project](crowdfounding/crowdfounding/static/images/project.png)
 
 ## Colour Scheme
