@@ -40,7 +40,7 @@ of money can be donated to reach our goal as an incentive to keep helping small 
 
 ## Wireframes
 {{ Insert your wireframes }}
-![image info goes here](./docs/image.png)
+![project](crowdfounding/crowdfounding/static/images/project.png)
 
 ## Colour Scheme
 {{ Insert your colour scheme }}
