@@ -6,7 +6,7 @@ She Codes crowdfunding project - DRF Backend.
 ## About
 LaunchMyBusiness is created for Small businesses that need presence online and do not have time to create a static website that displays their products. 
 Developers can help to adjust the existing templates according to their needs. In exchange, an amount 
-of money can be donated to reach our goal and as an incentive to keep helping small businesses to grow as well as our skills sets as developers.
+of money can be donated to reach our goal as an incentive to keep helping small businesses to grow as well as our skills sets as developers.
 
 
 ## Features
