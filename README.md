@@ -45,9 +45,10 @@ of money can be donated to reach our goal as an incentive to keep helping small 
 ![project](crowdfounding/crowdfounding/static/images/project.png)
 
 ## Colour Scheme
-{{ Insert your colour scheme }}
+{{ #264653, #2a9d8f,#e9c46a,#f4a261,#e76f51 }}
+{{https://coolors.co/palettes/trending}}
 
-![image info goes here](./docs/image.png)
+![Colour Scheme](crowdfounding/crowdfounding/static/images/colour_scheme.png)
 
 ## Fonts
 {{ outline your heading & body font(s) }}
