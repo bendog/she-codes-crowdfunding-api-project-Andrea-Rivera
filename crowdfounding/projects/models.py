@@ -15,8 +15,8 @@ class Project(models.Model):
         )
 
 class Pledge(models.Model):
-    dev_pledge = models.CharField(max_length=200)   
-    comment = models.CharField(max_length=200)  
+    amount = models.IntegerField(default=0)
+    comment = models.CharField(max_length=200)
    
     project = models.ForeignKey(
         'Project',
