@@ -1,5 +1,5 @@
 
-# LaunchPage Crowd by Andrea Rivera
+# LaunchMyBusiness by Andrea Rivera
 
 She Codes crowdfunding project - DRF Backend.
 
