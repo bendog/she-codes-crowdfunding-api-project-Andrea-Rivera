@@ -1,5 +1,5 @@
 
-# LaunchPage Crowd by {Andrea Rivera}
+# LaunchPage Crowd by Andrea Rivera
 
 She Codes crowdfunding project - DRF Backend.
 
