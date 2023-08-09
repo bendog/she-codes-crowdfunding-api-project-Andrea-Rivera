@@ -9,6 +9,7 @@ from .permissions import IsOwnerOrReadOnly
 class ProjectList(APIView):
 
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+
     def get(self, request):
         projects = Project.objects.all()
         serializer = ProjectSerializer(projects, many=True)
@@ -20,7 +21,7 @@ class ProjectList(APIView):
             serializer.save(owner=request.user)
             return Response(
                 serializer.data,
-            status=status.HTTP_201_CREATED
+                status=status.HTTP_201_CREATED
             )
         return Response(
             serializer.errors,
@@ -35,7 +36,6 @@ class ProjectDetail(APIView):
     ]
     def get_object(self, pk):
         try:
-    
             project = Project.objects.get(pk=pk)
             self.check_object_permissions(self.request, project)
             return project
@@ -56,7 +56,7 @@ class ProjectDetail(APIView):
             )
         if serializer.is_valid():
             serializer.save()
-            return Response(serializer.data)
+
 
 
 class PledgeList(APIView):
