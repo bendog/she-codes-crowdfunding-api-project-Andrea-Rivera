@@ -1,6 +1,6 @@
 
 # LaunchMyBusiness by Andrea Rivera
-
+[My crowdfunding App]( https://launchmybusiness.fly.dev)
 She Codes crowdfunding project - DRF Backend.
 
 ## About
@@ -11,7 +11,7 @@ of money can be donated to reach our goal as an incentive to keep helping small 
 
 ## Features
 
-* [] A user can login and see the template projects
+* [x] A user can login and see the template projects
 * [] A user can pre-order a template and make comments to add his/her own functionalities 
  with the comment feature
 * [] Developers will see the comment and approve the changes.
@@ -76,11 +76,16 @@ Deployed Project: [Deployed website](http://linkhere.com/)
 {{ Step by step instructions for how to register a new user and create a new project (i.e. endpoints and body data). }}
 
 ### Screenshots
-* [] A screenshot of Insomnia, demonstrating a successful GET method for any endpoint.
-![image info goes here](./docs/image.png)
+[x] A link to the deployed project.
+[My crowdfunding App]( https://launchmybusiness.fly.dev)
+[x] A screenshot of Insomnia, demonstrating a successful GET method for any endpoint.
+![get request](crowdfounding/crowdfounding/static/images/get_all_projects.png)
+[x] A screenshot of Insomnia, demonstrating a successful POST method for anyendpoint.
+![post request](crowdfounding/crowdfounding/static/images/create_projects.png)
+[x] A screenshot of Insomnia, demonstrating a token being returned.
+![token](crowdfounding/crowdfounding/static/images/token.png)
+[ ] Step by step instructions for how to register a new user and create a newproject (i.e. endpoints and body data).
 
-* [] A screenshot of Insomnia, demonstrating a successful POST method for any endpoint.
-![image info goes here](./docs/image.png)
+[ ] Your refined API specification and Database Schema.
 
-* [] A screenshot of Insomnia, demonstrating a token being returned.
-![image info goes here](./docs/image.png)
+
