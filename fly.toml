@@ -1,4 +1,4 @@
-app = "launchmybusiness"
+app = "LaunchMyBusiness"
 primary_region = "syd"
 console_command = "/code/manage.py shell"
 kill_signal = "SIGINT"
