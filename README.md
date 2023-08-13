@@ -1,7 +1,7 @@
 
 # LaunchMyBusiness by Andrea Rivera
 [My crowdfunding App]( https://launchmybusiness.fly.dev)
-*She Codes crowdfunding project - DRF Backend.
+* She Codes crowdfunding project - DRF Backend.
 
 ## About
 LaunchMyBusiness is created for Small businesses that need presence online and do not have time to create a static website that displays their products. 
@@ -21,21 +21,20 @@ of money can be donated to reach our goal as an incentive to keep enhancing our 
 
 
 ### Stretch Goals
-{{ Outline three features that will be your stretch goals if you finish your MVP }}
 
 * [] Online Payments
 * [] Users can see the projects by categories
 * [] Users can send messages to the developer of the templates.
 
 ## Wireframes
-{{ Insert your wireframes }}
+
 ![login](crowdfounding/crowdfounding/static/images/login.png)
 ![about](crowdfounding/crowdfounding/static/images/about.png)
 ![project](crowdfounding/crowdfounding/static/images/project.png)
 
 ## Colour Scheme
-{{ #264653, #2a9d8f,#e9c46a,#f4a261,#e76f51 }}
-{{https://coolors.co/palettes/trending}}
+* Colors: #264653, #2a9d8f,#e9c46a,#f4a261,#e76f51 
+* Link: (https://coolors.co/palettes/trending)
 
 ![Colour Scheme](crowdfounding/crowdfounding/static/images/colour_scheme.png)
 
@@ -85,7 +84,7 @@ Deployed Project: [Deployed website](https://launchmybusiness.fly.dev)
 { 
 "username":"superuser2",
 "email":"superuser@hotmail.com",
-"password":"lucrecia04"
+"password":"**********"
 }
 
 6. In the tab Auth go to Bearer and introduce the token.
@@ -100,7 +99,7 @@ Deployed Project: [Deployed website](https://launchmybusiness.fly.dev)
 2. Go to the API token request and enter the superuser username and password.
 3. Generate the token.
 4. Go to the endpoint created to POST users: 
-(https://launchmybusiness.fly.dev/users/)
+(https://launchmybusiness.fly.dev/projects/)
 5.  Insert the body of the POST request: 
 
 {
@@ -145,6 +144,6 @@ Deployed Project: [Deployed website](https://launchmybusiness.fly.dev)
 
 ## Database Schema
 
-![database schema](crowdfounding/crowdfounding/static/images/DRF.png)
+![database schema](crowdfounding/crowdfounding/static/images/crowdfunding_schema.png)
 
 
