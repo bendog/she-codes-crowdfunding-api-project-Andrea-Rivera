@@ -33,10 +33,7 @@ DEBUG = os.environ.get(
     'False'
     != 'False'
 )
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["https://launchmybusiness.fly.dev", "https://frontend-crowdfunding.netlify.app","127.0.0.1", "localhost",]
 CORS_ALLOW_ALL_ORIGINS = True
 CSRF_TRUSTED_ORIGINS = ['https://*.fly.dev']
 
@@ -45,16 +42,17 @@ CSRF_TRUSTED_ORIGINS = ['https://*.fly.dev']
 
 INSTALLED_APPS = [
     'projects.apps.ProjectsConfig',
-    'users.apps.UsersConfig',
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "users.apps.UsersConfig",
 ]
 
 REST_FRAMEWORK = {
@@ -144,8 +142,16 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+          ],
+}
