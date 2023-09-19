@@ -36,7 +36,7 @@ DEBUG = os.environ.get(
 ALLOWED_HOSTS =  [
     
      "frontend-crowdfunding.netlify.app",
-     "launchmybusiness.fly.dev"
+     "launchmybusiness.fly.dev",
     "localhost",
      "127.0.0.1",
 
