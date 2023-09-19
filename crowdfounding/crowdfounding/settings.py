@@ -26,11 +26,10 @@ SECRET_KEY = os.environ.get(
 )
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-DEBUG = os.environ.get("DJANGO_DEBUG", "False" != "False")
+DEBUG = os.environ.get("DJANGO_DEBUG", "False") != "False"
 ALLOWED_HOSTS = [
-    "https://launchmybusiness.fly.dev",
-    "https://frontend-crowdfunding.netlify.app",
+    "launchmybusiness.fly.dev",
+    "frontend-crowdfunding.netlify.app",  # i don't think this is needed here
     "127.0.0.1",
     "localhost",
 ]
@@ -53,12 +52,6 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "users.apps.UsersConfig",
 ]
-
-REST_FRAMEWORK = {
-    "DEFAULT_AUTHENTICATION_CLASSES": [
-        "rest_framework.authentication.TokenAuthentication",
-    ]
-}
 
 AUTH_USER_MODEL = "users.CustomUser"
 
